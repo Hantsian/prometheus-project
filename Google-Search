@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+        <title>Google Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+	<div>
+		<a href="images-search.html">Images Search</a>
+	  	<a href="advanced-search.html">Advanced Search</a>
+	</div>
+  <div class="contayner">
+		<table>
+			<thead>
+				<th style="color: blue">Search</th>
+			</thead>
+		</table>
+       		<form action="https://www.google.com/search">
+			<input type="text" name="q" id="textplace"><br><br>	
+			<input type="submit" class="button-search" value="Search">
+			<input type="submit" class="button-search" value="I'm lucky">
+		</form>
+	</div>
+    </body>
+</html>
