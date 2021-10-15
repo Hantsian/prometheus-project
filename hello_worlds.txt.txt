@@ -5,7 +5,8 @@
         <title>Hello!</title>
     </head>
     <body>
-    <h1>GitHub lear. Go to bed</>
+    <h1>GitHub lear. Go to school.</>
+>>>>>>> Stashed changes
         Hello, world!
     </body>
 <html>
