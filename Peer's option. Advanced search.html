@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+        <title>Search</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<style>body{ background-color: #EAF2F8;}</style>
+    </head>
+    <body>
+	<div>
+		<a href="images_serch.html" style="margin-right: 10px;">Пошук зображень</a>
+	  	<a href="serch.html">Повенутись наголовну</a>
+	</div>
+	<div class="adsearch">
+		Пошук із "собаками"<p><hr>
+	</div>
+	<div id="head">
+		<div class="hcol1">Знайти сторінки, що<br>містять...</div>
+		<div class="hcol2">Як це зробити в полі пошуку</div>
+	</div>
+	  	<form id="grid" action="https://google.com/search">
+        		<div class="grid-colume">усі ці слова:</div> 
+        		<input class="grid-input" id="text-input" type="text" name="as_q">
+        		<div class="explain">Введіть важливі слова: триколірний рет-тер’єр</div>
+        		<div class="grid-colume">точне слово або фразу:</div> 
+        		<input class="grid-input" id="text-input" type="text" name="as_epq">
+        		<div class="explain">Візьміть точні слова в лапки: "рет-тер’єр"</div>
+        		<div class="grid-colume">будь-яке з цих слів:</div> 
+        		<input class="grid-input" id="text-input" type="text" name="as_oq">
+        		<div class="explain">Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</div>
+        		<div class="grid-colume">жодне з цих слів:</div> 
+        		<input class="grid-input" id="text-input" type="text" name="as_eq">
+        		<div class="explain">Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</div>
+              		<input class="button-search" style="margin-left: 172px" type="submit" value="Шукати">
+    		</form>
+	</body>
+</html>
